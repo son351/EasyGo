@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="53dp"
+    android:background="@drawable/green" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="4dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FF1F1F" >
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtRecordNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/frameLayout1"
+        android:ellipsize="end"
+        android:maxWidth="175dp"
+        android:singleLine="true"        
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtRecordDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/frameLayout1"
+        android:layout_alignLeft="@+id/txtRecordNote"
+        android:layout_marginBottom="3dp"        
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp" >
+
+        <ImageButton
+            android:id="@+id/btnRecordPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/playRecord"
+            android:src="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/btnStopPlaying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/playRecord"
+            android:src="@drawable/pause"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</RelativeLayout>

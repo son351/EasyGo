@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/t3h/project/easygo/adapter/DrawerAdapter.java" />
+    </issue>
+    <issue id="InlinedApi">
+        <ignore path="src/com/t3h/project/easygo/fragment/DrawerFragment.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/t3h/project/easygo/InboxActivity.java" />
+        <ignore path="src/com/t3h/project/easygo/MainActivity.java" />
+        <ignore path="src/com/t3h/project/easygo/NotesActivity.java" />
+        <ignore path="src/com/t3h/project/easygo/PlacesActivity.java" />
+        <ignore path="src/com/t3h/project/easygo/RecordingActivity.java" />
+        <ignore path="src/com/t3h/project/easygo/fragment/DrawerFragment.java" />
+    </issue>
+</lint>

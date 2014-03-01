@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAEE69" >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/note_title_background"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/editTitleNotes"
+            android:layout_width="220dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rounded"
+            android:hint="@string/title" >
+
+            <requestFocus>
+            </requestFocus>
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSaveNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/red"
+            android:text="@string/save"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <view
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/editContentNotes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        class="com.t3h.project.easygo.extras.EdittextClass"
+        android:background="@android:color/transparent"
+        android:fadingEdge="vertical"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

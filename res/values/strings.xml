@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyGo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="fragments">
+        <item>Reminders</item>
+        <item>Important</item>
+        <item>Notes</item>
+        <item>Places</item>
+        <item>Recording</item>
+        <item>Feedback</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_inbox">Reminder something</string>
+    <string name="title_activity_notes">Note your stuff</string>
+    <string name="title_activity_places">Mark your place</string>
+    <string name="title_activity_recording">Record sound</string>
+    <string name="Input">Please type something</string>
+    <string name="title">Title</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="empty">Add new notes, reminders, record some audio or find a place can never be easier. Hit plus icon to create one!</string>
+    <string name="type">Type</string>
+    <string name="important">Important</string>
+    <string name="recordNote">Note something</string>
+    <string name="record">Start</string>
+    <string name="stopRecord">Stop</string>
+    <string name="playRecord">Play</string>
+    <string name="timer">00:00:00</string>
+    <string name="pause">Pause</string>
+    <string name="places">Find a place</string>
+    <string name="notePlace">Something about this place</string>
+    <string name="go">Go</string>
+    <string name="date">Choose Date</string>
+    <string name="time">Choose Time</string>
+    <string name="set">Set</string>
+    <string name="email">Email</string>
+
+</resources>

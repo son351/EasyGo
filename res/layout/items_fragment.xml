@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <ListView
+        android:id="@+id/listItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/black"
+        android:dividerHeight="0.5dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttonarea"
+        android:gravity="center"
+        android:padding="40dp"
+        android:text="@string/empty"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnSendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empty"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/blue"
+        android:gravity="center"
+        android:text="@string/email"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>
